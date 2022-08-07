@@ -84,8 +84,13 @@
 		<input type="submit" name=""><br>
 	</div>
 	<div>
-		<label>COUNTRY</label><br>
+		
+		<label>COUNTRY but locked field</label><br>
 		<input type="country" name="country" value="USA" disabled>
+	</div>
+	<div>
+		<label>COUNTRY</label><br>
+		<input type="country" name="country" value="USA">
 	</div>
 	<!-- Introducing radio buttons and check boxes -->
 	<p> Gender</p>
@@ -94,10 +99,10 @@
 	<input type="radio" name="gender" value="others"> Aee bhaii kuch bhi <br>
 	<input type="submit" name="">
 
-	<p>Course Registered</p>
-	<input type="checkbox" name="course" value="C++"> HTML<br>
-	<input type="checkbox" name="course" value="CSS"> CSS <br>
-	<input type="checkbox" name="course" value="JavaScript"> JavaScript<br>
+	<p>Checkboxes(Can select multi items at an instant)</p>
+	<input type="checkbox" name="course" value="Item 1"> HTML<br>
+	<input type="checkbox" name="course" value="Item 2"> CSS <br>
+	<input type="checkbox" name="course" value="Item 3"> JavaScript<br>
 	<input type="reset" name="">
 <p> Month</p>
 <select name = "month_selected"> 
@@ -110,7 +115,7 @@
 	<option>July</option>
 
 </select>
-<p> Experience </p>
+<p> Text Area(Can input long sentances here) </p>
 <textarea name = "exp" rows="10" cols="50"></textarea><br>
 <input type="button" value="Button 1" name="">
 <button type="button" value="Button 2"> Button 2</button>
